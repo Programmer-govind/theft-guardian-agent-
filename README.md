@@ -101,6 +101,13 @@ Due to Android OS security restrictions and current DroidRun agent limitations, 
 
 ---
 
+## 🔗 Project Links
+
+* **Mobile Agent Repo**: [Guardian Agent Mobile](https://github.com/Programmer-govind/theft-guardian-agent-)
+* **Backend Repo**: [Guardian Agent Backend](https://github.com/Abhinav-676/guardian-agent-backend)
+
+---
+
 ## 📽 Demo Video
 
 YouTube Link: *(To be added)*
