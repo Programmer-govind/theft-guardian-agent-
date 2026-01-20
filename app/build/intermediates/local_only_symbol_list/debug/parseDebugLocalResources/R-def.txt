@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color background_light
+color black
+color primary_brand
+color purple_500
+color secondary_accent
+color surface_white
+color text_main
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_logout
+id btnAdvancedSignals
+id btnLogin
+id btnRegister
+id btnSimulateNormal
+id btnSimulateTheft
+id etConfirmPassword
+id etEmail
+id etName
+id etPassword
+id tvLogin
+id tvRegister
+id tvResponse
+id tvUserWelcome
+layout activity_login
+layout activity_main
+layout activity_register
+menu main_menu
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+style Theme.TheftGuardian
+style Widget.OrdersFree.CardView

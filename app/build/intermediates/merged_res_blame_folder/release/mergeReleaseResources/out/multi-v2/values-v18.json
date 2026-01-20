@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.theftguardian.app-mergeReleaseResources-36:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gurug\\.gradle\\caches\\8.11.1\\transforms\\4a4176c1328cffbe95588e3ac304c4ff\\transformed\\appcompat-1.7.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

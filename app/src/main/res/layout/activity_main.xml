@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛡️ Theft Guardian"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUserWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Theft Scenario Button -->
+    <Button
+        android:id="@+id/btnSimulateTheft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠️ SIMULATE THEFT SCENARIO"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Normal Scenario Button -->
+    <Button
+        android:id="@+id/btnSimulateNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ SIMULATE NORMAL ACTIVITY"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Advanced Signals Button -->
+    <Button
+        android:id="@+id/btnAdvancedSignals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔍 ADVANCED SIGNAL TESTING"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Response Display -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select an action to test the Theft Guardian system.\n\n• RED: High-confidence theft simulation\n• GREEN: Normal activity\n• ORANGE: Custom signal combinations"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="4dp" />
+    </ScrollView>
+
+</LinearLayout>
